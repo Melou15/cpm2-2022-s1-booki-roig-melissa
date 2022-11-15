@@ -29,16 +29,12 @@ header
     height: 50px;
 }
 
+
 nav ul
 {
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
-}
-
-nav li
-{
-    margin-right: 30px;
 }
 
 nav a
@@ -47,6 +43,8 @@ nav a
     color: #000;
     padding-bottom: 3px;
     text-decoration: none;
+    align-content: center;
+    min-width: 150px;
 }
 
 nav a:hover
@@ -54,6 +52,6 @@ nav a:hover
     color: #0065FC;
     border-top: solid;
     border-color: #0065FC;
-    border
+    padding-top: 45px;
 }
 
