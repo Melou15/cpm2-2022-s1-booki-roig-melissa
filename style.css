@@ -1,6 +1,6 @@
 body 
 {
-	font:Raleway;
+	font-family: 'Raleway', sans-serif;
 }
 
 img
@@ -12,12 +12,17 @@ nav ul
 {
     list-style-type: none;
     display: flex;
-    flex-direction: flex-end;
+    justify-content: flex-end;
+}
+
+nav li
+{
+    margin-right: 15px;
 }
 
 nav a
 {
-    font-size:10px;
+    font-size:20px;
     color: #000;
     padding-bottom: 3px;
     text-decoration: none;
@@ -27,3 +32,4 @@ nav a:hover
 {
     color: #0065FC;
 }
+
