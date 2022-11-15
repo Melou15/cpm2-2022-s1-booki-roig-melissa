@@ -1,0 +1,29 @@
+body 
+{
+	font:Raleway;
+}
+
+img
+{
+	size: 20px;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: flex-end;
+}
+
+nav a
+{
+    font-size:10px;
+    color: #000;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #0065FC;
+}
