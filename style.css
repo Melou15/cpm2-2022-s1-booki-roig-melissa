@@ -54,4 +54,15 @@ nav a:hover
     border-color: #0065FC;
     padding-top: 45px;
 }
+input
+{
+    height: 50px;
+    width: 200px;
+}
 
+button
+{
+    height: 50px;
+    width: 120px;
+    background-color: #0065FC;
+}
