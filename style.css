@@ -55,7 +55,7 @@ nav a:hover
     padding-top: 45px;
 }
 
-#bold
+.bold
 {
     font-weight: bold;
 }
@@ -93,9 +93,10 @@ button
     flex-direction: center;
 }
 
-#place{
+.place{
     display: flex;
-    align-items: center !important;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -117,6 +118,7 @@ button
 
 .contour{
     border: 2px solid #F2F2F2;
+    width: 100px;
     height: 50px;
     border-radius: 30px;
     margin-right: 20px;
@@ -133,4 +135,12 @@ button
 .centrage{    
     display: flex;
     justify-content: center;
+    align-items: center;
 }
+
+.texte-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
