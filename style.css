@@ -161,7 +161,25 @@ button
 }
 
 .section2{
-    
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.hebergement{
+    border-radius: 10px;
+    background-color: #F2F2F2;
+    height: 500px;
+    width: 500px;
+    margin-left: 20px;
+}
+
+.populaire{
+    border-radius: 10px;
+    background-color: #F2F2F2
+    height: 500px;
+    width: 500px;
+    margin-right: 20px;
 }
 
 
