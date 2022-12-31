@@ -90,15 +90,10 @@ button
     width: 50px;
     border-radius: 10px 0 0 10px;
     background-color: #F2F2F2;
-    flex-direction: center;
-}
-
-.place{
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
-
 
 #filtre{
     display: flex;
