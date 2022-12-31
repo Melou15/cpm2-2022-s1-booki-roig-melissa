@@ -78,6 +78,12 @@ button
     border-radius: 0 10px 10px 0;
 
 }
+.loca{
+    display: flex;
+    align-items: center;
+
+}
+
 
 .localisation{
     height: 50px;
@@ -86,3 +92,25 @@ button
     background-color: #F2F2F2;
     flex-direction: center;
 }
+
+
+#filtre{
+    display: flex;
+    flex-direction: row;
+}
+
+#place{
+    display: flex;
+    align-items: center !important;
+}
+
+#categorie{
+   justify-content: space-around;
+}
+
+
+
+
+
+
+
