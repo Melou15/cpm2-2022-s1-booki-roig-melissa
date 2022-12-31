@@ -93,24 +93,44 @@ button
     flex-direction: center;
 }
 
-
-#filtre{
-    display: flex;
-    flex-direction: row;
-}
-
 #place{
     display: flex;
     align-items: center !important;
 }
 
-#categorie{
-   justify-content: space-around;
+
+#filtre{
+    display: flex;
+    align-items: center;
 }
 
 
+.categorie{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
 
+.filter{
+    margin-right: 20px;
+}
 
+.contour{
+    border: 2px solid #F2F2F2;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
 
+.rond_bleu{
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    color: #0065FC;
+    background-color: #DEEBFF;
+}
 
-
+.centrage{    
+    display: flex;
+    justify-content: center;
+}
