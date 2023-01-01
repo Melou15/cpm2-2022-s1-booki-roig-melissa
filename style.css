@@ -251,6 +251,10 @@ button
     margin-bottom: 20px;
 }
 
+.fa-star{
+    color:#0065FC;
+}
+
 .populaire{
     flex: 1;
     border-radius: 10px;
