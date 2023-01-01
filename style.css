@@ -243,8 +243,8 @@ button
 }
 
 .blocblanc{
-    width: 25%;
-    height: 200px;
+    width: 30%;
+    height: auto;
     background-color: #FFFF;
     border-radius:20px;
     padding: 0.5%;
