@@ -172,23 +172,21 @@ button
     border-radius: 10px;
     background-color: #F2F2F2;
     height: 500px;
-    margin-left: 20px;
-    padding: 10px;
-    display: flex;
+    margin-right: 20px;
     flex-direction: column;
     justify-content: space-around;
-    padding-right: 20px;
-    padding-left: 20px;
 }
 
-.populaire{
-    flex: 1;
-    border-radius: 10px;
-    background-color: #F2F2F2;
-    height: 500px;
-    margin-left: 20px;
-    padding: 10px;
+.blocheb{
+    padding-right: 10px;
+    padding-left: 10px;
 }
+
+/*.bloc{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}*/
 
 .imgheb1{
     background-image: url("./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
@@ -244,12 +242,13 @@ button
     border-radius: 15px 15px 0 0;
 }
 
-.bloc{
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
+.populaire{
+    flex: 1;
+    border-radius: 10px;
+    background-color: #F2F2F2;
+    height: 500px;
+    margin-left: 20px;
 }
-
 
 
 
