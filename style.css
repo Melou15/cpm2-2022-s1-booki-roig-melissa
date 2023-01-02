@@ -333,8 +333,7 @@ button
 /*SECTION 3*/
 
 .section3{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .activite{
@@ -418,5 +417,21 @@ button
 .txt{
     margin-left: 30px;
 }
+
+/*FOOTER*/
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    padding-left: 10px;
+    padding-right: 300px;
+    background-color: #F2F2F2;
+}
+
+
+
+
 
 
