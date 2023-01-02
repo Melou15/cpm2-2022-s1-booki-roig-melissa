@@ -334,7 +334,10 @@ button
 
 
 .activite{
-
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .imgact1{
