@@ -394,8 +394,24 @@ button
     border-radius: 15px;
 }
 
+.grandeimg{
+    width: 60%;
+    height: 500px;
+    background-color: #FFFF;
+    border-radius:20px;
+    padding: 0.5%;
+    margin-bottom: 20px;
+    box-shadow: inset 20px #F2F2F2; 
+}
 
-
+.petiteimg{
+    width: 60%;
+    height: 500px;
+    background-color: #FFFF;
+    border-radius:20px;
+    padding: 0.5%;
+    margin-bottom: 20px;
+}
 
 
 
