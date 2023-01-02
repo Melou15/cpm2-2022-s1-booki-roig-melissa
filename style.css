@@ -13,6 +13,7 @@ header
 {
     width: auto;
 }
+/*ENTETE*/
 
 #entete
 {
@@ -76,6 +77,9 @@ button
     border-radius: 0 10px 10px 0;
 
 }
+
+/*SECTION 1*/
+
 .loca{
     display: flex;
     align-items: center;
@@ -158,6 +162,8 @@ button
     color: #0065FC;
     margin-right: 10px;
 }
+
+/*SECTION 2*/
 
 .section2{
     display: flex;
@@ -322,6 +328,13 @@ button
 .bloctxtpop{
     width: 55%;
     padding-left:5%;
+}
+
+/*SECTION 3*/
+
+
+.activite{
+
 }
 
 .imgact1{
