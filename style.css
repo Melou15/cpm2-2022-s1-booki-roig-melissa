@@ -439,8 +439,12 @@ button
 
 /*FORMAT TABLETTE*/
 
-@media screen and (max-width: 1024px) and (min-width: 600px) {
-    
+@media screen and (max-width: 1024px) and (min-width: 600px) 
+{
+    button {
+        <i class="fa-regular fa-magnifying-glass"></i>
+
+    }
 }
 
 
