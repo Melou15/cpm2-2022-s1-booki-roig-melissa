@@ -334,11 +334,12 @@ button
 
 .blocblancpop{
     height: auto;
-    width: 100%;
+    width: 95%;
     background-color: #FFFF;
     border-radius:20px;
     padding: 1.5%;
     margin-bottom: 20px;
+    margin-right: 10px;
 }
 
 .blocblancpop a{
@@ -357,14 +358,18 @@ button
 
 .sectionact{
     margin-bottom: 50px;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
 }
 
 .activite{
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    padding: 10px;
 }
 
 .imgact1{
@@ -392,6 +397,7 @@ button
     width: 100%;
     height: 200px;
     border-radius: 15px 15px 0 0;
+    margin-top: 10px;
 }
 
 .imgact4{
@@ -419,6 +425,7 @@ button
     width: 100%;
     height: 200px;
     border-radius: 15px 15px 0 0;
+    margin-top: 10px;
 }
 
 .grandeimg{
@@ -428,13 +435,27 @@ button
 }
 
 .petiteimg{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 20%;
-    height: 500px;
+    width: 170%;
     border-radius:20px;
     box-shadow: 0 5px 5px 3px #F2F2F2;
+    margin: 20px;
+
+}
+
+.img_colone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+
+.petiteimg a{
+    text-decoration: none;
+}
+
+.grandeimg a{
+    text-decoration: none;
 }
 
 .txt{
