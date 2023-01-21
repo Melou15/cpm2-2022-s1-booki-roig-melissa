@@ -286,7 +286,7 @@ button
     background-color: #F2F2F2;
     height: auto;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 10px;
 }
 
@@ -304,11 +304,6 @@ button
     align-items: center;
 }
 
-.ligne{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .imgpop1{
     background-image: url("./images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
@@ -339,10 +334,18 @@ button
 
 .blocblancpop{
     height: auto;
+    width: 100%;
     background-color: #FFFF;
     border-radius:20px;
     padding: 1.5%;
     margin-bottom: 20px;
+}
+
+.blocblancpop a{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+
 }
 
 .bloctxtpop{
