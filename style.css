@@ -184,7 +184,6 @@ button
 .sectionheb_pop{
     display: flex;
     justify-content: flex-start;
-    padding-left: 20px;
 
 }
 
@@ -271,6 +270,10 @@ button
     border-radius:20px;
     padding: 0.5%;
     margin-bottom: 20px;
+}
+
+.blocblanc a{
+    text-decoration: none;
 }
 
 .fa-star{
