@@ -175,10 +175,10 @@ button
 
 /*SECTION 2*/
 
-.section2{
+.sectionheb_pop{
     display: flex;
     justify-content: flex-start;
-    padding: 20px;
+    padding-left: 20px;
 
 }
 
@@ -187,9 +187,10 @@ button
     border-radius: 10px;
     background-color: #F2F2F2;
     height: auto;
-    margin-right: 20px;
     flex-direction: column;
     justify-content: space-around;
+    padding-right: 20px;
+    margin: 10px;
 }
 
 .blocheb{
@@ -275,9 +276,9 @@ button
     border-radius: 10px;
     background-color: #F2F2F2;
     height: auto;
-    margin-left: 20px;
     flex-direction: column;
     justify-content: space-around;
+    margin: 10px;
 }
 
 .blocpop{
@@ -342,7 +343,7 @@ button
 
 /*SECTION 3*/
 
-.section3{
+.sectionact{
     margin-bottom: 50px;
 }
 
@@ -490,6 +491,32 @@ button
     height: 50px;
     color: #0065FC;
     background-color: #DEEBFF;
+}
+.sectionheb_pop{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.blocheb{
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+.blocpop{
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+#footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 500px;
+    padding-left: 10px;
+    padding-right: 30px;
+    background-color: #F2F2F2;
 }
 }
 
