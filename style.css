@@ -363,7 +363,7 @@ button
     flex-direction: column;
 }
 
-.activite{
+#activite{
     width: 100%;
     height: auto;
     display: flex;
